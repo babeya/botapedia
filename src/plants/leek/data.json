@@ -1,0 +1,12 @@
+{
+  "key": "leek",
+  "usualName": "Poireau",
+  "order":	"Liliales",
+  "family":	"Alliaceae",
+  "genus": "Allium",
+  "species": "Ampeloprasum var. porrum",
+  "sources": [{
+    "name": "wikipedia",
+    "url": "https://fr.wikipedia.org/wiki/Poireau" 
+  }]
+}

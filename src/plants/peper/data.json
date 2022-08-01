@@ -1,0 +1,12 @@
+{
+  "key": "peper",
+  "usualName": "Poivron",
+  "order":	"Solanales",
+  "family":	"Solanaceae",
+  "genus": "Capsicum",
+  "species": "Annuum",
+  "sources": [{
+    "name": "wikipedia",
+    "url": "https://fr.wikipedia.org/wiki/Poivron" 
+  }]
+}

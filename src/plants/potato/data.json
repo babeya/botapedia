@@ -1,0 +1,13 @@
+{
+  "key": "potato",
+  "usualName": "Pomme de Terre",
+  "order":	"Solanales",
+  "family":	"Solanaceae",
+  "sub-family": "Solanoideae",
+  "genus": "Solanum",
+  "species": "Tuberosum",
+  "sources": [{
+    "name": "wikipedia",
+    "url": "https://fr.wikipedia.org/wiki/Pomme_de_terre" 
+  }]
+}

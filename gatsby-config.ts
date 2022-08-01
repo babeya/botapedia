@@ -28,6 +28,20 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, 
+  {
+    resolve: `gatsby-transformer-json`,
+    options: {
+      typeName: `plants`, // a fixed string
+    },
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "plants",
+      "path": "./src/plants/"
+    },
+    __key: "plants"
   }]
 };
 
