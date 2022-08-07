@@ -24,10 +24,10 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: "plantImages",
+        path: "./src/images/plants",
       },
-      __key: "images",
+      __key: "plantImages",
     },
     {
       resolve: "gatsby-source-filesystem",

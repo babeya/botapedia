@@ -1,12 +1,17 @@
 {
   "key": "tomato",
   "usualName": "Tomate",
-  "order":	"Solanales",
-  "family":	"Solanaceae",
+  "order": "Solanales",
+  "family": "Solanaceae",
   "genus": "Solanum",
   "species": "Lycopersicum",
-  "sources": [{
-    "name": "wikipedia",
-    "url": "https://fr.wikipedia.org/wiki/Tomate" 
-  }]
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Tomate"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/tomato/main.jpg"
+  }
 }

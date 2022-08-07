@@ -1,12 +1,17 @@
 {
   "key": "cucumber",
   "usualName": "Concombre",
-  "order":	"Violales",
-  "family":	"Cucurbitaceae",
+  "order": "Violales",
+  "family": "Cucurbitaceae",
   "genus": "Cucumis",
   "species": "Sativus",
-  "sources": [{
-    "name": "wikipedia",
-    "url": "https://fr.wikipedia.org/wiki/Concombre" 
-  }]
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Concombre"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/cucumber/main.jpg"
+  }
 }

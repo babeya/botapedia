@@ -1,6 +1,7 @@
 import React from "react";
 
 import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 
@@ -10,10 +11,22 @@ type Props = {
 
 const PlantPage = ({ data }: Props) => {
   const plant = data?.plant || {};
-  const { id, usualName, order, family, genus, species } = plant;
+
+  const {
+    id,
+    usualName,
+    order,
+    family,
+    genus,
+    species,
+    images: { main },
+  } = plant;
+
+  const image = getImage(main);
 
   return (
-    <Layout pageTitle="Super Cool Blog Posts">
+    <Layout pageTitle={usualName}>
+      {image ? <GatsbyImage image={image} alt={usualName} /> : null}
       <p>{usualName}</p>
       <p>
         {order} - {family} - {genus} - {species}
@@ -31,6 +44,18 @@ export const query = graphql`
       family
       genus
       species
+      key
+      images {
+        main {
+          childImageSharp {
+            gatsbyImageData(
+              width: 200
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
     }
   }
 `;

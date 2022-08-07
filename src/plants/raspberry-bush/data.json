@@ -1,0 +1,17 @@
+{
+  "key": "raspberry-bush",
+  "usualName": "Framboisier",
+  "order": "Rosales",
+  "family": "Rosaceae",
+  "genus": "Rubus",
+  "species": "Idaeus",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Framboisier"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/raspberry-bush/main.jpg"
+  }
+}

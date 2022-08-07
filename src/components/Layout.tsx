@@ -1,5 +1,9 @@
 import React from "react";
 
+import CssBaseline from "@mui/material/CssBaseline";
+
+import Container from "@mui/material/Container";
+
 type Props = {
   pageTitle: string;
   children: React.ReactNode;
@@ -7,9 +11,10 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div>
-      <div>{children}</div>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <Container>{children}</Container>
+    </React.Fragment>
   );
 };
 

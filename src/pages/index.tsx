@@ -1,18 +1,23 @@
 import React from "react";
 
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
-// markup
+import Paper from "@mui/material/Paper";
+import Stack from "@mui/material/Stack";
+import Layout from "../components/Layout";
+import PlantLine from "../components/PlantLine";
+
 const IndexPage = ({ data }: any) => {
   const edges = data?.allPlant?.edges || [];
 
   return (
-    <div>
-      <div>Hola Amigos</div>
-      {edges.map((edge: any) => (
-        <span key={edge?.node?.key}>{edge?.node?.name}</span>
-      ))}
-    </div>
+    <Layout pageTitle="Botapedia">
+      <Stack>
+        {edges.map((edge: any) => (
+          <PlantLine plant={edge.node} />
+        ))}
+      </Stack>
+    </Layout>
   );
 };
 
@@ -29,6 +34,18 @@ export const query = graphql`
           order
           key
           family
+          images {
+            main {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 160
+                  height: 160
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                )
+              }
+            }
+          }
         }
       }
     }
