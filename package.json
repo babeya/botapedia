@@ -15,7 +15,7 @@
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "typecheck": "tsc --noEmit",
-    "merge-data": "./scripts/mergeFile.js build.json ./src/plants data.json"
+    "merge-data": "./scripts/mergeFile.js build.json ./src/plants ./public/plants.json"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
