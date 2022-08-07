@@ -1,19 +1,46 @@
-import React from "react";
+import React, { useState, useMemo } from "react";
 
 import { graphql, Link } from "gatsby";
 
-import Paper from "@mui/material/Paper";
+import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
-import Layout from "../components/Layout";
-import PlantLine from "../components/PlantLine";
+import Box from "@mui/material/Box";
+import SearchIcon from "@mui/icons-material/Search";
+
+import { Layout, PlantLine } from "../components";
 
 const IndexPage = ({ data }: any) => {
   const edges = data?.allPlant?.edges || [];
 
+  const [search, setSearch] = useState("");
+
+  const plants = useMemo(() => {
+    if (!search) {
+      return edges;
+    } else {
+      return edges.filter((edge: any) =>
+        edge?.node?.usualName.includes(search)
+      );
+    }
+  }, [search]);
+
   return (
     <Layout pageTitle="Botapedia">
-      <Stack>
-        {edges.map((edge: any) => (
+      <Box sx={{ display: "flex", alignItems: "flex-end", m: 2 }}>
+        <SearchIcon sx={{ color: "action.active", mr: 1, my: 0.5 }} />
+        <TextField
+          id="search"
+          label="Rechercher une plante"
+          variant="standard"
+          sx={{ flexGrow: 1 }}
+          onChange={(evt) => {
+            setSearch(evt.target.value || "");
+          }}
+        />
+      </Box>
+
+      <Stack spacing={2}>
+        {plants.map((edge: any) => (
           <PlantLine plant={edge.node} />
         ))}
       </Stack>
@@ -23,7 +50,7 @@ const IndexPage = ({ data }: any) => {
 
 export const query = graphql`
   query allPlant {
-    allPlant {
+    allPlant(sort: { fields: [usualName], order: ASC }) {
       edges {
         node {
           id
