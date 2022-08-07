@@ -5,15 +5,19 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
 type Props = {
-  data?: any; //{ plant: Plant };
+  data?: Plant; //{ plant: Plant };
 };
 
 const PlantPage = ({ data }: Props) => {
-  const plant = data?.plant;
+  const plant = data?.plant || {};
+  const { id, usualName, order, family, genus, species } = plant;
 
   return (
     <Layout pageTitle="Super Cool Blog Posts">
-      <p>{plant.name}</p>
+      <p>{usualName}</p>
+      <p>
+        {order} - {family} - {genus} - {species}
+      </p>
     </Layout>
   );
 };
@@ -23,6 +27,10 @@ export const query = graphql`
     plant(key: { eq: $key }) {
       id
       usualName
+      order
+      family
+      genus
+      species
     }
   }
 `;

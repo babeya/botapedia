@@ -6,7 +6,11 @@ type Props = {
 };
 
 const Layout = ({ children }: Props) => {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <div>{children}</div>
+    </div>
+  );
 };
 
 export default Layout;
