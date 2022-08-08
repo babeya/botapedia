@@ -1,0 +1,16 @@
+{
+  "key": "thyme",
+  "usualName": "Thym",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "species": "Thymus",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Thym"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/thyme/main.jpg"
+  }
+}

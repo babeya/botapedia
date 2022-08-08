@@ -1,0 +1,17 @@
+{
+  "key": "oregano",
+  "usualName": "Origan",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Origanum",
+  "species": "Vulgare",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Origan"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/oregano/main.jpg"
+  }
+}

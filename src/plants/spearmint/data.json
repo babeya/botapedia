@@ -1,0 +1,17 @@
+{
+  "key": "spearmint",
+  "usualName": "Menthe verte",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Mentha",
+  "species": "Spicata",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Mentha_spicata"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/spearmint/main.jpg"
+  }
+}

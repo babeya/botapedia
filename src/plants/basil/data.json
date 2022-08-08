@@ -1,0 +1,18 @@
+{
+  "key": "basil",
+  "usualName": "Basilic",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "sub-family": "Nepetoideae",
+  "genus": "Ocimum",
+  "species": "Basilicum",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Basilic_(plante)"
+    }
+  ],
+  "images": {
+    "main": "../../images/plants/basil/main.jpg"
+  }
+}
