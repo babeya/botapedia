@@ -3,11 +3,11 @@ import React, { useState, useMemo } from "react";
 import { graphql, Link } from "gatsby";
 
 import TextField from "@mui/material/TextField";
-import Stack from "@mui/material/Stack";
+import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import SearchIcon from "@mui/icons-material/Search";
 
-import { Layout, PlantLine } from "../components";
+import { Layout, PlantCard } from "../components";
 
 const IndexPage = ({ data }: any) => {
   const edges = data?.allPlant?.edges || [];
@@ -39,11 +39,11 @@ const IndexPage = ({ data }: any) => {
         />
       </Box>
 
-      <Stack spacing={2}>
+      <Grid container spacing={2}>
         {plants.map((edge: any) => (
-          <PlantLine plant={edge.node} />
+          <PlantCard plant={edge.node} />
         ))}
-      </Stack>
+      </Grid>
     </Layout>
   );
 };
@@ -65,8 +65,8 @@ export const query = graphql`
             main {
               childImageSharp {
                 gatsbyImageData(
-                  width: 160
-                  height: 160
+                  height: 180
+                  width: 280
                   placeholder: BLURRED
                   formats: [AUTO, WEBP, AVIF]
                 )
