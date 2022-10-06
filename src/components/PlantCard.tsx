@@ -31,6 +31,7 @@ const PlantLine = ({
   return (
     <Grid item xs={12} md={4} lg={3}>
       <Card>
+        {/* @ts-ignore TODO */}
         <CardActionArea LinkComponent={Link} to={`/${key}`}>
           <CardMedia component="span">
             {image ? <GatsbyImage image={image} alt={usualName} /> : null}
