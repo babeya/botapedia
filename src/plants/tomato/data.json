@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Tomate"
     }
   ],
-  "images": {
-    "main": "../../images/plants/tomato/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant de tomate",
+    "alt": "Photo d'un plant de tomate zoomé sur les fruits"
   }
 }

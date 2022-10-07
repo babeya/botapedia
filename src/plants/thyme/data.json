@@ -10,7 +10,9 @@
       "url": "https://fr.wikipedia.org/wiki/Thym"
     }
   ],
-  "images": {
-    "main": "../../images/plants/thyme/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant de thym",
+    "alt": "Photo d'un plant de thym"
   }
 }

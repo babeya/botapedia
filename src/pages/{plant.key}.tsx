@@ -19,11 +19,11 @@ const PlantPage = ({
       genus,
       species,
       // @ts-ignore // TODO
-      images: { main },
+      mainImage: { src },
     },
   },
 }: Props) => {
-  const image = getImage(main);
+  const image = getImage(src);
 
   return (
     <Layout>
@@ -53,8 +53,8 @@ export const query = graphql`
       genus
       species
       key
-      images {
-        main {
+      mainImage {
+        src {
           childImageSharp {
             gatsbyImageData(
               width: 200

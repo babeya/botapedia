@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Poireau"
     }
   ],
-  "images": {
-    "main": "../../images/plants/leek/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Poireaux",
+    "alt": "Photo de trois poireaux sur une table"
   }
 }

@@ -12,7 +12,9 @@
       "url": "https://fr.wikipedia.org/wiki/Basilic_(plante)"
     }
   ],
-  "images": {
-    "main": "../../images/plants/basil/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant de basilic",
+    "alt": "Photo des feuilles d'un plant de basilic"
   }
 }

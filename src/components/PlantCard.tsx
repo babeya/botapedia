@@ -21,12 +21,10 @@ const PlantLine = ({
     key,
     usualName,
     species,
-    images: { main },
+    mainImage: { src },
   },
 }: Props) => {
-  const image = getImage(main);
-
-  console.log(image);
+  const image = getImage(src);
 
   return (
     <Grid item xs={12} md={4} lg={3}>

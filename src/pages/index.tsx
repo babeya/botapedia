@@ -65,8 +65,8 @@ export const query = graphql`
           order
           key
           family
-          images {
-            main {
+          mainImage {
+            src {
               childImageSharp {
                 gatsbyImageData(
                   aspectRatio: 1.3

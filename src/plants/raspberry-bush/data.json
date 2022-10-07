@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Framboisier"
     }
   ],
-  "images": {
-    "main": "../../images/plants/raspberry-bush/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant de framboisier",
+    "alt": "Photo d'un plant de framboisier avec ses fruits"
   }
 }

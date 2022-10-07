@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Concombre"
     }
   ],
-  "images": {
-    "main": "../../images/plants/cucumber/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plan de cocombre en fleur",
+    "alt": "Photo d'un plant de cocombre"
   }
 }

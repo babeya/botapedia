@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Mentha_spicata"
     }
   ],
-  "images": {
-    "main": "../../images/plants/spearmint/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant de menthe verte",
+    "alt": "Photo d'un plant de menthe verte"
   }
 }

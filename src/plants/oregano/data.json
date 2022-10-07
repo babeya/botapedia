@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Origan"
     }
   ],
-  "images": {
-    "main": "../../images/plants/oregano/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant d'origan",
+    "alt": "Photo d'un plant d'origan"
   }
 }

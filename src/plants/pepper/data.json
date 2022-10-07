@@ -11,7 +11,9 @@
       "url": "https://fr.wikipedia.org/wiki/Poivron"
     }
   ],
-  "images": {
-    "main": "../../images/plants/pepper/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Poivrons",
+    "alt": "Photo de quatres poivrons multi-colors sur un fond blanc"
   }
 }

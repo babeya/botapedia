@@ -12,7 +12,9 @@
       "url": "https://fr.wikipedia.org/wiki/Pomme_de_terre"
     }
   ],
-  "images": {
-    "main": "../../images/plants/potato/main.jpg"
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plant de pomme de terre en fleur",
+    "alt": "Photo d'un plant de pomme de terre en fleur"
   }
 }
