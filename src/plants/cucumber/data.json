@@ -5,6 +5,7 @@
   "family": "Cucurbitaceae",
   "genus": "Cucumis",
   "species": "Sativus",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",

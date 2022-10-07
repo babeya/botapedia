@@ -6,6 +6,7 @@
   "sub-family": "Nepetoideae",
   "genus": "Ocimum",
   "species": "Basilicum",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",

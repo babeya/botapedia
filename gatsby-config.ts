@@ -29,14 +29,7 @@ const config: GatsbyConfig = {
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "plantImages",
-        path: "./src/images/plants",
-      },
-      __key: "plantImages",
-    },
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
