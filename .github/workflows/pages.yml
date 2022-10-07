@@ -80,8 +80,6 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
       - name: Bundle plants data
         run: ${{ steps.detect-package-manager.outputs.manager }} run merge-data
-      - name: Copy plants images
-        run: cp -r ./src/images/plants ./public/img
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
