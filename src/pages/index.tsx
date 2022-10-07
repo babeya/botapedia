@@ -1,13 +1,13 @@
 import React, { useState, useMemo } from "react";
 
-import { graphql, Link } from "gatsby";
+import { graphql, HeadFC } from "gatsby";
 
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import SearchIcon from "@mui/icons-material/Search";
 
-import { Layout, PlantCard } from "../components";
+import { Layout, PlantCard, BaseHead } from "../components";
 
 const IndexPage = ({ data }: any) => {
   const edges = data?.allPlant?.edges || [];
@@ -25,7 +25,7 @@ const IndexPage = ({ data }: any) => {
   }, [search]);
 
   return (
-    <Layout pageTitle="Botapedia">
+    <Layout>
       <Box sx={{ display: "flex", alignItems: "flex-end", m: 2 }}>
         <SearchIcon sx={{ color: "action.active", mr: 1, my: 0.5 }} />
         <TextField
@@ -47,6 +47,10 @@ const IndexPage = ({ data }: any) => {
     </Layout>
   );
 };
+
+export const Head: HeadFC = () => (
+  <BaseHead title="Botapedia : L'encyclopédie libre des plantes" />
+);
 
 export const query = graphql`
   query allPlant {

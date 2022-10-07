@@ -8,7 +8,6 @@ import Box from "@mui/material/Box";
 import AppBar from "./AppBar";
 
 type Props = {
-  pageTitle: string;
   children: React.ReactNode;
 };
 
