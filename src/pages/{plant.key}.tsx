@@ -3,7 +3,12 @@ import React from "react";
 import { graphql, HeadFC } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import { Layout, BaseHead, MarkdownText } from "../components";
+import {
+  Layout,
+  BaseHead,
+  MarkdownText,
+  ClassificationTable,
+} from "../components";
 
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
@@ -27,6 +32,7 @@ const PlantPage = ({
       // @ts-ignore // TODO
       mainImage: { src },
     },
+    plant,
   },
 }: Props) => {
   const image = getImage(src);
@@ -52,9 +58,7 @@ const PlantPage = ({
               ) : null}
             </Paper>
             <Paper sx={{ display: "flex", justifyContent: "center" }}>
-              <p>
-                {order} - {family} - {genus} - {species}
-              </p>
+              <ClassificationTable plant={plant} />
             </Paper>
           </Stack>
         </Grid>
@@ -66,15 +70,20 @@ const PlantPage = ({
 export const Head: HeadFC = ({
   data: {
     // @ts-ignore
-    plant: { usualName },
+    plant: { usualName, species },
   },
-}) => <BaseHead title={`Botapedia : ${usualName}`} />;
+}) => <BaseHead title={`Botapedia : ${usualName}, ${species}`} />;
 
 export const query = graphql`
   query Plant($key: String) {
     plant(key: { eq: $key }) {
       id
       usualName
+      kingdom
+      subKingdom
+      division
+      classP
+      subClassP
       order
       family
       genus

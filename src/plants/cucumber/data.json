@@ -1,10 +1,15 @@
 {
   "key": "cucumber",
   "usualName": "Concombre",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Dilleniidae",
   "order": "Violales",
   "family": "Cucurbitaceae",
   "genus": "Cucumis",
-  "species": "Sativus",
+  "species": "Cucumis sativus",
   "description": "./description.md",
   "sources": [
     {
