@@ -1,0 +1,25 @@
+{
+  "key": "radish",
+  "usualName": "Radis",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Dilleniidae",
+  "order": "Capparales",
+  "family": "Brassicaceae",
+  "genus": "Raphanus",
+  "species": "Raphanus sativus",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Radis"
+    }
+  ],
+  "mainImage": {
+    "src": "./main.jpg",
+    "title": "Plan de cocombre en fleur",
+    "alt": "Photo d'un plant de cocombre"
+  }
+}
