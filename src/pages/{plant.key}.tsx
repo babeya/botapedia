@@ -42,7 +42,10 @@ const PlantPage = ({
               {usualName}
             </Typography>
             <Typography>
-              <MarkdownText markdown={description?.childMarkdownRemark} />
+              <MarkdownText
+                // @ts-ignore // TODO
+                markdown={description?.childMarkdownRemark}
+              />
             </Typography>
           </Paper>
         </Grid>
