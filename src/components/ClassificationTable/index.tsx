@@ -25,6 +25,7 @@ const ClassificationTable = ({
     order,
     family,
     genus,
+    species,
   },
 }: Props) => {
   return (
@@ -101,6 +102,14 @@ const ClassificationTable = ({
               >
                 <TableCell>Genre</TableCell>
                 <TableCell>{genus}</TableCell>
+              </TableRow>
+            ) : null}
+            {species ? (
+              <TableRow
+                sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+              >
+                <TableCell>Espèce</TableCell>
+                <TableCell>{species}</TableCell>
               </TableRow>
             ) : null}
           </TableBody>
