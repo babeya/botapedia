@@ -71,7 +71,13 @@ export const Head: HeadFC = ({
     // @ts-ignore
     plant: { usualName, species },
   },
-}) => <BaseHead title={`Botapedia : ${usualName}, ${species}`} />;
+}) => (
+  <BaseHead
+    title={`Botapedia : ${usualName}, ${species}`}
+    // TODO
+    description={`${usualName}, ${species}`}
+  />
+);
 
 export const query = graphql`
   query Plant($key: String) {

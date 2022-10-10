@@ -2,11 +2,13 @@ import React from "react";
 
 type Props = {
   title: string;
+  description: string;
 };
 
-const BaseHead = ({ title }: Props) => (
+const BaseHead = ({ title, description }: Props) => (
   <React.Fragment>
     <title>{title}</title>
+    <meta name="description" content={description || ""} />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link
       rel="stylesheet"

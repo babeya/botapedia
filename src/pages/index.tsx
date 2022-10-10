@@ -49,7 +49,10 @@ const IndexPage = ({ data }: any) => {
 };
 
 export const Head: HeadFC = () => (
-  <BaseHead title="Botapedia : L'encyclopédie libre des plantes" />
+  <BaseHead
+    title="Botapedia : L'encyclopédie libre des plantes"
+    description="Encyclopédie botanique collaborative libre de droit. Rechercher et comparer les plantes entre elles. Consulter les détails de chaque espèce (phylogénie, environement, culture). Télécharger les données (pdf, json)"
+  />
 );
 
 export const query = graphql`
