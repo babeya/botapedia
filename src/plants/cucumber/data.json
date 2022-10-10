@@ -15,11 +15,20 @@
     {
       "name": "wikipedia",
       "url": "https://fr.wikipedia.org/wiki/Concombre"
+    },
+    {
+      "name": "PennState Extension",
+      "url": "https://extension.psu.edu/cucumber-production"
     }
   ],
   "mainImage": {
     "src": "./main.jpg",
     "title": "Plan de cocombre en fleur",
     "alt": "Photo d'un plant de cocombre"
+  },
+  "temperatures": {
+    "min": [10],
+    "grow": [18, 35],
+    "max": [35]
   }
 }

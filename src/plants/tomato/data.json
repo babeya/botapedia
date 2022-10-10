@@ -1,19 +1,34 @@
 {
   "key": "tomato",
   "usualName": "Tomate",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Asteridae",
   "order": "Solanales",
   "family": "Solanaceae",
   "genus": "Solanum",
-  "species": "Lycopersicum",
+  "species": "Solanum lycopersicum",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",
       "url": "https://fr.wikipedia.org/wiki/Tomate"
+    },
+    {
+      "name": "PennState Extension",
+      "url": "https://extension.psu.edu/tomato-production"
     }
   ],
   "mainImage": {
     "src": "./main.jpg",
     "title": "Plant de tomate",
     "alt": "Photo d'un plant de tomate zoomé sur les fruits"
+  },
+  "temperatures": {
+    "min": [12],
+    "grow": [18, 32],
+    "max": [32]
   }
 }

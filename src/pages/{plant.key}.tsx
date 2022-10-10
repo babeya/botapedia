@@ -8,6 +8,7 @@ import {
   BaseHead,
   MarkdownText,
   ClassificationTable,
+  TemperatureGauge,
 } from "../components";
 
 import Grid from "@mui/material/Grid";
@@ -22,12 +23,7 @@ type Props = {
 const PlantPage = ({
   data: {
     plant: {
-      id,
       usualName,
-      order,
-      family,
-      genus,
-      species,
       description,
       // @ts-ignore // TODO
       mainImage: { src },
@@ -60,6 +56,9 @@ const PlantPage = ({
             <Paper sx={{ display: "flex", justifyContent: "center" }}>
               <ClassificationTable plant={plant} />
             </Paper>
+            <Paper sx={{ display: "flex", justifyContent: "center" }}>
+              <TemperatureGauge plant={plant} />
+            </Paper>
           </Stack>
         </Grid>
       </Grid>
@@ -89,6 +88,11 @@ export const query = graphql`
       genus
       species
       key
+      temperatures {
+        min
+        grow
+        max
+      }
       description {
         childMarkdownRemark {
           html
