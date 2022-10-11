@@ -1,0 +1,21 @@
+{
+  "key": "malus-domestica",
+  "usualName": "Pommier domestique",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Rosidae",
+  "order": "Rosales",
+  "family": "Rosaceae",
+  "subFamily": "Maloideae",
+  "genus": "Malus",
+  "species": "Malus domestica",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Pommier_domestique"
+    }
+  ]
+}

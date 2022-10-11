@@ -1,0 +1,18 @@
+{
+  "key": "allium-cepa",
+  "usualName": "Carotte",
+  "kingdom": "Plantae",
+  "classP": "Liliopsida",
+  "subClassP": "Liliidae",
+  "order": "Liliales",
+  "family": "Liliaceae",
+  "genus": "Allium",
+  "species": "Allium cepa",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Oignon"
+    }
+  ]
+}

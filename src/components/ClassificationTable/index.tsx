@@ -35,7 +35,7 @@ const ClassificationTable = ({
         sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
       >
         <AccountTreeIcon sx={{ marginX: 1 }} />
-        Phylogénie
+        Classification
       </Typography>
       <TableContainer>
         <Table>

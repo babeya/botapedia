@@ -1,0 +1,20 @@
+{
+  "key": "allium-sativum",
+  "usualName": "Ail cultivé",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Liliopsida",
+  "subClassP": "Liliidae",
+  "order": "Liliales",
+  "family": "Amaryllidaceae",
+  "genus": "Allium",
+  "species": "Allium sativum",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Ail_cultivé"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "key": "pyrus-communis",
+  "usualName": "Poirier commun",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Rosidae",
+  "order": "Rosales",
+  "family": "Rosaceae",
+  "subFamily": "Maloideae",
+  "genus": "Pyrus",
+  "species": "Pyrus communis",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Poirier_commun"
+    }
+  ]
+}
