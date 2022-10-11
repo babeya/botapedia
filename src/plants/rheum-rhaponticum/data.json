@@ -1,0 +1,21 @@
+{
+  "key": "rheum-rhaponticum",
+  "usualName": "Rhubarbe sauvage",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Equisetopsida",
+  "subClassP": "Magnoliidae",
+  "order": "Caryophyllales",
+  "family": "Polygonaceae",
+  "subFamily": "Polygonoideae",
+  "genus": "Rheum",
+  "species": "Rheum rhaponticum",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Rheum_rhaponticum"
+    }
+  ]
+}

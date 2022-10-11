@@ -1,0 +1,20 @@
+{
+  "key": "laurus-nobilis",
+  "usualName": "Laurier",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Equisetopsida",
+  "subClassP": "Magnoliidae",
+  "order": "Laurales",
+  "family": "Lauraceae",
+  "genus": "Laurus",
+  "species": "Laurus nobilis",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Laurus_nobilis"
+    }
+  ]
+}

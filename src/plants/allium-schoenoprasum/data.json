@@ -1,0 +1,18 @@
+{
+  "key": "allium-schoenoprasum",
+  "usualName": "Ciboulette commune",
+  "kingdom": "Plantae",
+  "classP": "Liliopsida",
+  "subClassP": "Liliidae",
+  "order": "Liliales",
+  "family": "Liliaceae",
+  "genus": "Allium",
+  "species": "Allium schoenoprasum",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Ciboulette_commune"
+    }
+  ]
+}
