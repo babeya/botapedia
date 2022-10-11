@@ -1,0 +1,17 @@
+{
+  "key": "mentha-x-piperita",
+  "usualName": "Menthe poivrée",
+  "kingdom": "Plantae",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "order": "Lamiales",
+  "family": "Lamiaceae",
+  "genus": "Mentha",
+  "species": "Mentha × piperita",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Menthe_poivrée"
+    }
+  ],
+}

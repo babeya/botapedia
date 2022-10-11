@@ -1,10 +1,15 @@
 {
-  "key": "pepper",
+  "key": "capsicum-annuum",
   "usualName": "Poivron",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
   "order": "Solanales",
   "family": "Solanaceae",
   "genus": "Capsicum",
-  "species": "Annuum",
+  "species": "Capsicum annuum",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",

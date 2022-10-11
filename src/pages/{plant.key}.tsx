@@ -22,16 +22,12 @@ type Props = {
 
 const PlantPage = ({
   data: {
-    plant: {
-      usualName,
-      description,
-      // @ts-ignore // TODO
-      mainImage: { src },
-    },
+    plant: { usualName, description, mainImage },
     plant,
   },
 }: Props) => {
-  const image = getImage(src);
+  // @ts-ignore
+  const image = mainImage?.src ? getImage(mainImage?.src) : null;
 
   return (
     <Layout>

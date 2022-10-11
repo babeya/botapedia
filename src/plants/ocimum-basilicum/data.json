@@ -1,11 +1,11 @@
 {
-  "key": "basil",
+  "key": "ocimum-basilicum",
   "usualName": "Basilic",
   "order": "Lamiales",
   "family": "Lamiaceae",
   "sub-family": "Nepetoideae",
   "genus": "Ocimum",
-  "species": "Basilicum",
+  "species": "Ocimum basilicum",
   "description": "./description.md",
   "sources": [
     {

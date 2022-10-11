@@ -1,10 +1,13 @@
 {
-  "key": "spearmint",
+  "key": "mentha-spicata",
   "usualName": "Menthe verte",
+  "kingdom": "Plantae",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
   "order": "Lamiales",
   "family": "Lamiaceae",
   "genus": "Mentha",
-  "species": "Spicata",
+  "species": "Mentha spicata",
   "sources": [
     {
       "name": "wikipedia",

@@ -1,11 +1,16 @@
 {
-  "key": "potato",
+  "key": "solanum-tuberosum",
   "usualName": "Pomme de Terre",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Asteridae",
   "order": "Solanales",
   "family": "Solanaceae",
   "sub-family": "Solanoideae",
   "genus": "Solanum",
-  "species": "Tuberosum",
+  "species": "Solanum tuberosum",
   "sources": [
     {
       "name": "wikipedia",

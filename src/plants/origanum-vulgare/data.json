@@ -1,10 +1,16 @@
 {
-  "key": "oregano",
+  "key": "origanum-vulgare",
   "usualName": "Origan",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Asteridae",
   "order": "Lamiales",
   "family": "Lamiaceae",
   "genus": "Origanum",
-  "species": "Vulgare",
+  "species": "Origanum vulgare",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",

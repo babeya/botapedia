@@ -1,9 +1,15 @@
 {
-  "key": "thyme",
+  "key": "thymus-vulgaris",
   "usualName": "Thym",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Asteridae",
   "order": "Lamiales",
   "family": "Lamiaceae",
-  "species": "Thymus",
+  "genus": "Thymus",
+  "species": "Thymus vulgaris",
   "sources": [
     {
       "name": "wikipedia",

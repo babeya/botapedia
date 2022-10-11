@@ -1,10 +1,11 @@
 {
-  "key": "leek",
+  "key": "allium-ampeloprasum-var-porrum",
   "usualName": "Poireau",
   "order": "Liliales",
   "family": "Alliaceae",
   "genus": "Allium",
-  "species": "Ampeloprasum var. porrum",
+  "species": "Allium ampeloprasum var. porrum",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",

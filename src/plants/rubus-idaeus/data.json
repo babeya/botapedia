@@ -1,10 +1,15 @@
 {
-  "key": "raspberry-bush",
+  "key": "rubus-idaeus",
   "usualName": "Framboisier",
+  "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "subClassP": "Rosidae",
   "order": "Rosales",
   "family": "Rosaceae",
   "genus": "Rubus",
-  "species": "Idaeus",
+  "species": "Rubus idaeus",
   "sources": [
     {
       "name": "wikipedia",

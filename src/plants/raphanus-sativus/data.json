@@ -1,5 +1,5 @@
 {
-  "key": "radish",
+  "key": "raphanus-sativus",
   "usualName": "Radis",
   "kingdom": "Plantae",
   "subKingdom": "Tracheobionta",
@@ -16,10 +16,5 @@
       "name": "wikipedia",
       "url": "https://fr.wikipedia.org/wiki/Radis"
     }
-  ],
-  "mainImage": {
-    "src": "./main.jpg",
-    "title": "Plan de cocombre en fleur",
-    "alt": "Photo d'un plant de cocombre"
-  }
+  ]
 }

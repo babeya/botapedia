@@ -21,10 +21,10 @@ const PlantLine = ({
     key,
     usualName,
     species,
-    mainImage: { src },
+    mainImage
   },
 }: Props) => {
-  const image = getImage(src);
+  const image = mainImage?.src ? getImage(mainImage?.src) : null;
 
   return (
     <Grid item xs={12} md={4} lg={3}>
