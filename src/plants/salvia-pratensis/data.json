@@ -1,18 +1,19 @@
 {
-  "key": "mentha-x-piperita",
-  "usualName": "Menthe poivrée",
+  "key": "salvia-pratensis",
+  "usualName": "Sauge des prés",
   "kingdom": "Plantae",
+  "subKingdom": "Tracheobionta",
   "division": "Magnoliophyta",
   "classP": "Magnoliopsida",
   "order": "Lamiales",
   "family": "Lamiaceae",
-  "genus": "Mentha",
-  "species": "Mentha x piperita",
+  "genus": "Salvia",
+  "species": "Salvia pratensis",
   "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",
-      "url": "https://fr.wikipedia.org/wiki/Menthe_poivrée"
+      "url": "https://fr.wikipedia.org/wiki/Salvia_pratensis"
     }
   ]
 }

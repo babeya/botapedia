@@ -1,6 +1,6 @@
 {
-  "key": "thymus-vulgaris",
-  "usualName": "Thym",
+  "key": "thymus-×citriodorus",
+  "usualName": "Thym citron",
   "kingdom": "Plantae",
   "subKingdom": "Tracheobionta",
   "division": "Magnoliophyta",
@@ -9,17 +9,12 @@
   "order": "Lamiales",
   "family": "Lamiaceae",
   "genus": "Thymus",
-  "species": "Thymus vulgaris",
+  "species": "Thymus ×citriodorus",
   "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",
-      "url": "https://fr.wikipedia.org/wiki/Thym"
+      "url": "https://fr.wikipedia.org/wiki/Thym_citron"
     }
-  ],
-  "mainImage": {
-    "src": "./main.jpg",
-    "title": "Plant de thym",
-    "alt": "Photo d'un plant de thym"
-  }
+  ]
 }

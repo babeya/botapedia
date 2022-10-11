@@ -11,6 +11,7 @@
   "sub-family": "Solanoideae",
   "genus": "Solanum",
   "species": "Solanum tuberosum",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",

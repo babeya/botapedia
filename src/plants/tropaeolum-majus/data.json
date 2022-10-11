@@ -1,0 +1,18 @@
+{
+  "key": "tropaeolum-majus",
+  "usualName": "Grande capucine",
+  "kingdom": "Plantae",
+  "division": "Magnoliophyta",
+  "classP": "Magnoliopsida",
+  "order": "Geraniales",
+  "family": "Tropaeolaceae",
+  "genus": "Tropaeolum",
+  "species": "Tropaeolum majus",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Grande_capucine"
+    }
+  ]
+}

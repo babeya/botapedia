@@ -1,0 +1,19 @@
+{
+  "key": "daucus-carota",
+  "usualName": "Carotte",
+  "kingdom": "Plantae",
+  "subKingdom": "Viridaeplantae",
+  "classP": "Equisetopsida",
+  "subClassP": "Magnoliidae",
+  "order": "Apiales",
+  "family": "Apiaceae",
+  "genus": "Daucus",
+  "species": "Daucus carota",
+  "description": "./description.md",
+  "sources": [
+    {
+      "name": "wikipedia",
+      "url": "https://fr.wikipedia.org/wiki/Carotte"
+    }
+  ]
+}

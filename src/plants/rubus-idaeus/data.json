@@ -10,6 +10,7 @@
   "family": "Rosaceae",
   "genus": "Rubus",
   "species": "Rubus idaeus",
+  "description": "./description.md",
   "sources": [
     {
       "name": "wikipedia",
